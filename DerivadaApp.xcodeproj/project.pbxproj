@@ -94,6 +94,8 @@
 		C2A3812F2A998A6E001F3F79 /* DerivadaApp */ = {
 			isa = PBXGroup;
 			children = (
+				C2A3815B2A998AC0001F3F79 /* Views */,
+				C2A3815A2A998AA5001F3F79 /* Models */,
 				C2A381302A998A6E001F3F79 /* DerivadaAppApp.swift */,
 				C2A381322A998A6E001F3F79 /* ContentView.swift */,
 				C2A381342A998A70001F3F79 /* Assets.xcassets */,
@@ -125,6 +127,20 @@
 				C2A3814D2A998A70001F3F79 /* DerivadaAppUITestsLaunchTests.swift */,
 			);
 			path = DerivadaAppUITests;
+			sourceTree = "<group>";
+		};
+		C2A3815A2A998AA5001F3F79 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C2A3815B2A998AC0001F3F79 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -432,9 +448,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = davidmartinezhi.DerivadaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -461,9 +480,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = davidmartinezhi.DerivadaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
